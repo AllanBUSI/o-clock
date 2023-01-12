@@ -1,4 +1,4 @@
-# Baptême revisité tuteurs
+# Baptême tuteurs freelances
 
 ## Contexte et objectifs
 
