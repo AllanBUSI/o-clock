@@ -1,0 +1,64 @@
+<%- include('partials/header') %>
+
+<div class="card-item">
+    <div class="container container-main">
+
+        <div class="row">
+          <div class="col">
+            <h3 class="text-center">Votre deck</h3>
+  
+            <table class="table">
+              <thead>
+                <th>Nom</th>
+                <th>Element</th>
+                <th></th>
+              </thead>
+              <tbody>
+                <% 
+                if (!deck || deck.length === 0){
+                %>
+                  <tr>
+                    <td colspan="3" class="text-center">
+                      Vous n'avez pas de carte dans votre deck.
+                    </td>
+                  </tr>
+                <%
+                } else {
+                
+                for (card of deck) { %>
+              
+                <tr>
+                  <td>
+                    <img class="img-thumbnail img-cart-list" src="/visuals/<%=card.visual_name%>" alt="">
+                    <div class="item-description">
+                        <h5 class="item-title"><%= card.name %></h5>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="item-subtotal">$<%= card.price%></p>
+                  </td>
+                  <td>
+                
+                  </td>
+                </tr>
+                <% }
+               } %>
+                
+            </table>
+  
+            <div class="row">
+              <div class="col text-right">
+                  <a class="btn btn-success" href="/">
+                    Retour à l'accueil
+                  </a>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+    </div>
+  
+  
+  
+  
+  <%- include('partials/footer') %>

@@ -1,0 +1,26 @@
+<%- include('../main/partials/header') %>
+
+<h1 class="main-title"><%= card.name %></h1>
+
+<div class="cardsContainer">
+  <div>
+    <img src="/visuals/<%= card.visual_name %>" alt="Carte <%= card.name %>" />
+    <p>Element: 
+      <% if(card.element){ %>
+        <%= card.element %>
+      <% } else { %>
+        empty
+      <% } %>
+    </p>
+    <p>Level: <%= card.level %></p>
+    <p>Value North: <%= card.value_north %></p>
+    <p>Value East: <%= card.value_east %></p>
+    <p>Value South: <%= card.value_south %></p>
+    <p>Value West: <%= card.value_west %></p>
+
+  </div>
+  
+</div>
+
+
+<%- include('../main/partials/footer') %>

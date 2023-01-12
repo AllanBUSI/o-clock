@@ -1,0 +1,33 @@
+<%- include('../partials/header'); %>
+
+    <h1>
+        Détails de carte
+    </h1>
+
+    <div class="cardsContainer">
+        <% for (const singleCard of card) { %>
+
+            <div class="card">
+                <a href="/card/<%= card.id %>"><%= card.name %>">
+                    <img src="/visuals/<%= card.visual_name.toLowerCase() %>.jpg" alt="<%= card.name %> illustration">
+                    <p class="cardName">
+                        <%= card.name %>
+                        <%= card.element %>
+                        <%= card.level %>
+                        <%= card.value_north %>
+                        <%= card.value_east %>
+                        <%= card.value_south %>
+                        <%= card.value_west %>
+                        <%= card.visual_name %>
+                    </p>
+                </a>
+                <a class="link--addCard" title="Ajouter au deck" href="/card/<%= card.id %>">
+                    <%= card.name %>[ + ]
+                </a>
+            </div>
+
+            <% } %>
+    </div>
+
+
+    <%- include('../partials/footer'); %>

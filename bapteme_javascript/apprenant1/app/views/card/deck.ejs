@@ -1,0 +1,23 @@
+<%- include('../main/partials/header') %>
+
+<h1 class="main-title">Deck</h1>
+
+<div class="cardsContainer">
+  <% if(cards.length){ 
+    for (const card of cards) { %>
+      <div class="card">
+        <a href="/card/<%= card.id %>">
+          <img src="/visuals/<%= card.visual_name %>" alt="<%= card.name %> illustration" />
+          <p class="cardName"><%= card.name %></p>
+        </a>
+        <a class="link--removeCard" title="Supprimer du deck" href="/deck/remove/<%= card.id %>">[ - ]</a>
+      </div>
+    <% } %>
+  <% } else { %>
+    <p>Il n'y a pas de cartes dans votre Deck</p>
+  <% } %>
+  
+</div>
+
+
+<%- include('../main/partials/footer') %>
