@@ -48,11 +48,11 @@ Pour se faire :
 
 Peut-être l’as-tu déjà remarqué, ou bien ce sera le cas très vite, un.e des apprenant.e ayant sollicité un feedback s’en est plutôt très bien sorti ! <br>
 
-L’apprenant.e en question t’as envoyé un MP - fictif -, où il te demande même un conseil plus avancé sur la notion de fetch.<br>
+L’apprenant.e en question t’as envoyé un MP - fictif -, où il te demande même un conseil plus avancé sur la notion de fetch (methode Javascript).<br>
 
-1 explication d’un concept avancé. <br>
+1 explication d’un concept avancé (que tu sois JS ou PHP). <br>
 
-Tu l’auras compris, tu vas devoir réaliser à destination de cet apprenant une explication de la notion de fetch.<br> 
+Tu l’auras compris, tu vas devoir réaliser à destination de cet apprenant une explication de la notion de fetch (methode Javascript).<br> 
 
 Pour se faire : 
 - tu devras non seulement lui expliquer d’une manière compréhensible pour son son niveau (il reste débutant quoiqu’à l’aise) l’aspect théorique de la notion, mais également lui montrer un exemple pratique et détaillé d’un fetch, à partir de l’une des routes, au choix, du serveur qu’il a réalisé ;
