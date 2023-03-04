@@ -1,0 +1,3 @@
+Pour les apprenants PHP et JS voici la note : Des Choses à Travailler
+
+Commentaire : Les notions de bases sont valider le dîmplome seront OK mais des erreurs de convention et de bonnes pratique sont a travailler. Il sont en capacité de construire un projet mais ne sont pas encore en capacité de pouvoir travailler en équipe. Beaucoup de problème de sécurité notament injection sql, attaque xss et les erreurs qui sont en claire
